@@ -1,5 +1,7 @@
 # nyc-rideshare-spark
 
+[![CI](https://github.com/vaibhav4046/nyc-rideshare-spark/actions/workflows/ci.yml/badge.svg)](https://github.com/vaibhav4046/nyc-rideshare-spark/actions/workflows/ci.yml)
+
 A batch data pipeline in **Scala + Apache Spark 3.5** over the public
 [NYC TLC High Volume For-Hire Vehicle trip records](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 (Uber, Lyft and others). It ingests monthly Parquet files, validates every row, stops the job when a
