@@ -1,0 +1,274 @@
+{
+  "run_started_utc": "2026-11-22T15:39:41.400209400Z",
+  "spark_master": "local[6]",
+  "spark_version": "3.5.8",
+  "full_refresh": false,
+  "months_processed": [
+    "2023-01",
+    "2023-02",
+    "2023-03",
+    "2023-04",
+    "2023-05",
+    "2023-06"
+  ],
+  "months_skipped_already_published": [],
+  "input_bytes": 2958931771,
+  "input_gb": 2.9589,
+  "input_rows": 115212739,
+  "valid_rows": 115146942,
+  "rejected_rows": 65797,
+  "ingest_seconds": 760.1773,
+  "aggregate_seconds": 24.9835,
+  "total_wall_seconds": 785.2505,
+  "ingest_rows_per_second": 151560.3451,
+  "ingest_mb_per_second": 3.8924,
+  "aggregate_output_rows": 538,
+  "machine": {
+    "os": "Windows 11 10.0",
+    "jvm": "Microsoft 17.0.20.1",
+    "available_processors": 12,
+    "driver_max_heap_gb": 6.4425
+  },
+  "months": [
+    {
+      "month": "2023-01",
+      "input_bytes": 473816636,
+      "input_rows": 18479031,
+      "valid_rows": 18465449,
+      "rejected_rows": 13582,
+      "rejects_by_reason": {
+        "null_timestamp": 0,
+        "bad_location": 0,
+        "bad_duration": 70,
+        "bad_distance": 18,
+        "negative_money": 13494,
+        "out_of_period": 0
+      },
+      "dq_checks": [
+        {
+          "check": "min_rows",
+          "passed": true,
+          "detail": "input_rows=18479031 min=1000"
+        },
+        {
+          "check": "reject_ratio",
+          "passed": true,
+          "detail": "reject_ratio=0.00073 max=0.02000"
+        },
+        {
+          "check": "known_company",
+          "passed": true,
+          "detail": "unknown_company_rows=0"
+        },
+        {
+          "check": "avg_fare_in_range",
+          "passed": true,
+          "detail": "avg_base_fare=21.57 range=[5, 100]"
+        }
+      ],
+      "dq_pass_seconds": 11.6055,
+      "write_seconds": 170.6537,
+      "month_seconds": 189.3465
+    },
+    {
+      "month": "2023-02",
+      "input_bytes": 458895583,
+      "input_rows": 17960971,
+      "valid_rows": 17947092,
+      "rejected_rows": 13879,
+      "rejects_by_reason": {
+        "null_timestamp": 0,
+        "bad_location": 0,
+        "bad_duration": 62,
+        "bad_distance": 9,
+        "negative_money": 13808,
+        "out_of_period": 0
+      },
+      "dq_checks": [
+        {
+          "check": "min_rows",
+          "passed": true,
+          "detail": "input_rows=17960971 min=1000"
+        },
+        {
+          "check": "reject_ratio",
+          "passed": true,
+          "detail": "reject_ratio=0.00077 max=0.02000"
+        },
+        {
+          "check": "known_company",
+          "passed": true,
+          "detail": "unknown_company_rows=0"
+        },
+        {
+          "check": "avg_fare_in_range",
+          "passed": true,
+          "detail": "avg_base_fare=22.34 range=[5, 100]"
+        }
+      ],
+      "dq_pass_seconds": 10.6102,
+      "write_seconds": 144.3813,
+      "month_seconds": 155.5513
+    },
+    {
+      "month": "2023-03",
+      "input_bytes": 522484870,
+      "input_rows": 20413539,
+      "valid_rows": 20399676,
+      "rejected_rows": 13863,
+      "rejects_by_reason": {
+        "null_timestamp": 0,
+        "bad_location": 0,
+        "bad_duration": 53,
+        "bad_distance": 11,
+        "negative_money": 13799,
+        "out_of_period": 0
+      },
+      "dq_checks": [
+        {
+          "check": "min_rows",
+          "passed": true,
+          "detail": "input_rows=20413539 min=1000"
+        },
+        {
+          "check": "reject_ratio",
+          "passed": true,
+          "detail": "reject_ratio=0.00068 max=0.02000"
+        },
+        {
+          "check": "known_company",
+          "passed": true,
+          "detail": "unknown_company_rows=0"
+        },
+        {
+          "check": "avg_fare_in_range",
+          "passed": true,
+          "detail": "avg_base_fare=23.42 range=[5, 100]"
+        }
+      ],
+      "dq_pass_seconds": 5.9146,
+      "write_seconds": 113.1433,
+      "month_seconds": 119.7614
+    },
+    {
+      "month": "2023-04",
+      "input_bytes": 491826475,
+      "input_rows": 19144903,
+      "valid_rows": 19133000,
+      "rejected_rows": 11903,
+      "rejects_by_reason": {
+        "null_timestamp": 0,
+        "bad_location": 0,
+        "bad_duration": 67,
+        "bad_distance": 12,
+        "negative_money": 11824,
+        "out_of_period": 0
+      },
+      "dq_checks": [
+        {
+          "check": "min_rows",
+          "passed": true,
+          "detail": "input_rows=19144903 min=1000"
+        },
+        {
+          "check": "reject_ratio",
+          "passed": true,
+          "detail": "reject_ratio=0.00062 max=0.02000"
+        },
+        {
+          "check": "known_company",
+          "passed": true,
+          "detail": "unknown_company_rows=0"
+        },
+        {
+          "check": "avg_fare_in_range",
+          "passed": true,
+          "detail": "avg_base_fare=24.45 range=[5, 100]"
+        }
+      ],
+      "dq_pass_seconds": 5.6547,
+      "write_seconds": 86.7848,
+      "month_seconds": 94.2898
+    },
+    {
+      "month": "2023-05",
+      "input_bytes": 513108369,
+      "input_rows": 19847676,
+      "valid_rows": 19841217,
+      "rejected_rows": 6459,
+      "rejects_by_reason": {
+        "null_timestamp": 0,
+        "bad_location": 0,
+        "bad_duration": 95,
+        "bad_distance": 14,
+        "negative_money": 6350,
+        "out_of_period": 0
+      },
+      "dq_checks": [
+        {
+          "check": "min_rows",
+          "passed": true,
+          "detail": "input_rows=19847676 min=1000"
+        },
+        {
+          "check": "reject_ratio",
+          "passed": true,
+          "detail": "reject_ratio=0.00033 max=0.02000"
+        },
+        {
+          "check": "known_company",
+          "passed": true,
+          "detail": "unknown_company_rows=0"
+        },
+        {
+          "check": "avg_fare_in_range",
+          "passed": true,
+          "detail": "avg_base_fare=25.48 range=[5, 100]"
+        }
+      ],
+      "dq_pass_seconds": 6.2714,
+      "write_seconds": 111.8991,
+      "month_seconds": 118.8690
+    },
+    {
+      "month": "2023-06",
+      "input_bytes": 498799838,
+      "input_rows": 19366619,
+      "valid_rows": 19360508,
+      "rejected_rows": 6111,
+      "rejects_by_reason": {
+        "null_timestamp": 0,
+        "bad_location": 0,
+        "bad_duration": 130,
+        "bad_distance": 28,
+        "negative_money": 5953,
+        "out_of_period": 0
+      },
+      "dq_checks": [
+        {
+          "check": "min_rows",
+          "passed": true,
+          "detail": "input_rows=19366619 min=1000"
+        },
+        {
+          "check": "reject_ratio",
+          "passed": true,
+          "detail": "reject_ratio=0.00032 max=0.02000"
+        },
+        {
+          "check": "known_company",
+          "passed": true,
+          "detail": "unknown_company_rows=0"
+        },
+        {
+          "check": "avg_fare_in_range",
+          "passed": true,
+          "detail": "avg_base_fare=25.46 range=[5, 100]"
+        }
+      ],
+      "dq_pass_seconds": 5.4909,
+      "write_seconds": 75.8929,
+      "month_seconds": 82.3405
+    }
+  ]
+}

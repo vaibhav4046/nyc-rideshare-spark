@@ -1,0 +1,10 @@
+{
+  "job": "pyspark/borough_hourly.py (PySpark port of Aggregations.boroughHourly)",
+  "input": "curated trips table written by the Scala pipeline (115,146,942 rows, 181 date partitions)",
+  "output_rows": 151,
+  "seconds": 25.64,
+  "environment": "WSL2 Ubuntu 24.04, PySpark 3.5.8, OpenJDK 17, local[4], 4 vCPU and 2 GB RAM (WSL limits), data read over /mnt/d",
+  "matches_scala_output": true,
+  "check": "results/borough_hourly_pyspark.csv compared line by line with results/borough_hourly.csv (152 lines each, no differences)",
+  "note": "Values copied from the console output of one run on 2026-11-22. Not a speed comparison with the Scala job: different OS, cores and memory."
+}

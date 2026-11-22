@@ -1,0 +1,34 @@
+{
+  "query": "trips per company, pickup_date 2023-03-06..2023-03-12",
+  "note": "raw counts include rows later rejected by validation, so the two counts differ slightly",
+  "reps": 3,
+  "before_raw_monthly_files": {
+    "trips_counted": 4653205,
+    "seconds": [
+      16.0806,
+      17.2655,
+      14.4111
+    ],
+    "median_seconds": 16.0806
+  },
+  "after_partitioned_curated": {
+    "trips_counted": 4650057,
+    "seconds": [
+      1.0078,
+      0.5949,
+      0.9862
+    ],
+    "median_seconds": 0.9862
+  },
+  "median_seconds": {
+    "before": 16.0806,
+    "after": 0.9862
+  },
+  "speedup": 16.3058,
+  "machine": {
+    "os": "Windows 11 10.0",
+    "jvm": "Microsoft 17.0.20.1",
+    "available_processors": 12,
+    "driver_max_heap_gb": 6.4425
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "run_started_utc": "2026-11-22T15:53:21.828388Z",
+  "spark_master": "local[6]",
+  "spark_version": "3.5.8",
+  "full_refresh": false,
+  "months_processed": [],
+  "months_skipped_already_published": [
+    "2023-01",
+    "2023-02",
+    "2023-03",
+    "2023-04",
+    "2023-05",
+    "2023-06"
+  ],
+  "input_bytes": 0,
+  "input_gb": 0.0000,
+  "input_rows": 0,
+  "valid_rows": 0,
+  "rejected_rows": 0,
+  "ingest_seconds": 0.0022,
+  "aggregate_seconds": 30.5783,
+  "total_wall_seconds": 30.7323,
+  "ingest_rows_per_second": 0.0000,
+  "ingest_mb_per_second": 0.0000,
+  "aggregate_output_rows": 538,
+  "machine": {
+    "os": "Windows 11 10.0",
+    "jvm": "Microsoft 17.0.20.1",
+    "available_processors": 12,
+    "driver_max_heap_gb": 6.4425
+  },
+  "months": []
+}

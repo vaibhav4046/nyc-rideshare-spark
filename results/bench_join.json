@@ -1,0 +1,36 @@
+{
+  "query": "borough_hourly: curated trips JOIN taxi zones (265 rows) GROUP BY borough, hour",
+  "input_rows": 115146942,
+  "reps": 3,
+  "before_sort_merge_join": {
+    "join_operator": "SortMergeJoin",
+    "output_rows": 151,
+    "seconds": [
+      102.4009,
+      147.1626,
+      135.6690
+    ],
+    "median_seconds": 135.6690
+  },
+  "after_broadcast_hash_join": {
+    "join_operator": "BroadcastHashJoin",
+    "output_rows": 151,
+    "seconds": [
+      6.3204,
+      6.0584,
+      24.0682
+    ],
+    "median_seconds": 6.3204
+  },
+  "median_seconds": {
+    "before": 135.6690,
+    "after": 6.3204
+  },
+  "speedup": 21.4653,
+  "machine": {
+    "os": "Windows 11 10.0",
+    "jvm": "Microsoft 17.0.20.1",
+    "available_processors": 12,
+    "driver_max_heap_gb": 6.4425
+  }
+}

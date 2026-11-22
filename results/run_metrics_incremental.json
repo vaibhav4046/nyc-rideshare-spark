@@ -1,0 +1,75 @@
+{
+  "run_started_utc": "2026-11-22T16:09:13.605739900Z",
+  "spark_master": "local[6]",
+  "spark_version": "3.5.8",
+  "full_refresh": false,
+  "months_processed": [
+    "2023-06"
+  ],
+  "months_skipped_already_published": [
+    "2023-01",
+    "2023-02",
+    "2023-03",
+    "2023-04",
+    "2023-05"
+  ],
+  "input_bytes": 498799838,
+  "input_gb": 0.4988,
+  "input_rows": 19366619,
+  "valid_rows": 19360508,
+  "rejected_rows": 6111,
+  "ingest_seconds": 168.8022,
+  "aggregate_seconds": 79.0598,
+  "total_wall_seconds": 248.0308,
+  "ingest_rows_per_second": 114729.6606,
+  "ingest_mb_per_second": 2.9549,
+  "aggregate_output_rows": 538,
+  "machine": {
+    "os": "Windows 11 10.0",
+    "jvm": "Microsoft 17.0.20.1",
+    "available_processors": 12,
+    "driver_max_heap_gb": 6.4425
+  },
+  "months": [
+    {
+      "month": "2023-06",
+      "input_bytes": 498799838,
+      "input_rows": 19366619,
+      "valid_rows": 19360508,
+      "rejected_rows": 6111,
+      "rejects_by_reason": {
+        "null_timestamp": 0,
+        "bad_location": 0,
+        "bad_duration": 130,
+        "bad_distance": 28,
+        "negative_money": 5953,
+        "out_of_period": 0
+      },
+      "dq_checks": [
+        {
+          "check": "min_rows",
+          "passed": true,
+          "detail": "input_rows=19366619 min=1000"
+        },
+        {
+          "check": "reject_ratio",
+          "passed": true,
+          "detail": "reject_ratio=0.00032 max=0.02000"
+        },
+        {
+          "check": "known_company",
+          "passed": true,
+          "detail": "unknown_company_rows=0"
+        },
+        {
+          "check": "avg_fare_in_range",
+          "passed": true,
+          "detail": "avg_base_fare=25.46 range=[5, 100]"
+        }
+      ],
+      "dq_pass_seconds": 33.1265,
+      "write_seconds": 130.2161,
+      "month_seconds": 168.7741
+    }
+  ]
+}

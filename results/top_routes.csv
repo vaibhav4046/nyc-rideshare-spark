@@ -1,0 +1,26 @@
+pickup_zone,pickup_borough,dropoff_zone,dropoff_borough,trips,avg_miles,avg_minutes,avg_fare_usd
+JFK Airport,Queens,Outside of NYC,N/A,408076,29.22,53.0,116.27
+East New York,Brooklyn,East New York,Brooklyn,364134,1.44,8.1,10.96
+LaGuardia Airport,Queens,Outside of NYC,N/A,259264,26.81,49.5,111.67
+Borough Park,Brooklyn,Borough Park,Brooklyn,250024,1.13,9.6,11.46
+Canarsie,Brooklyn,Canarsie,Brooklyn,216891,1.28,7.1,10.4
+Crown Heights North,Brooklyn,Crown Heights North,Brooklyn,177056,1.28,8.9,11.61
+South Ozone Park,Queens,JFK Airport,Queens,164253,3.15,8.9,15.51
+Bay Ridge,Brooklyn,Bay Ridge,Brooklyn,154752,1.17,6.7,10.06
+Astoria,Queens,Astoria,Queens,153225,1.0,6.8,9.9
+Jackson Heights,Queens,Jackson Heights,Queens,147069,1.15,8.2,10.63
+South Ozone Park,Queens,South Ozone Park,Queens,127251,1.25,6.8,10.16
+Times Sq/Theatre District,Manhattan,Outside of NYC,N/A,126150,18.03,39.5,94.59
+Forest Hills,Queens,Forest Hills,Queens,123037,1.22,8.0,10.74
+Bushwick South,Brooklyn,Bushwick South,Brooklyn,121800,1.35,8.9,11.91
+Midtown Center,Manhattan,Outside of NYC,N/A,115305,19.53,44.7,102.49
+Bushwick North,Brooklyn,Bushwick South,Brooklyn,112332,1.27,8.1,11.23
+Park Slope,Brooklyn,Park Slope,Brooklyn,112234,1.11,7.7,11.12
+Central Harlem North,Manhattan,Central Harlem North,Manhattan,111876,1.19,7.7,11.14
+Bushwick South,Brooklyn,Bushwick North,Brooklyn,106195,1.27,8.2,11.17
+Flatbush/Ditmas Park,Brooklyn,Flatbush/Ditmas Park,Brooklyn,102832,1.23,8.7,11.45
+Williamsburg (North Side),Brooklyn,Greenpoint,Brooklyn,99844,1.27,8.1,11.83
+Greenpoint,Brooklyn,Williamsburg (North Side),Brooklyn,95796,1.3,8.6,11.74
+South Jamaica,Queens,Jamaica,Queens,92320,1.33,8.2,10.62
+Astoria,Queens,Steinway,Queens,91652,1.53,9.5,11.84
+Brownsville,Brooklyn,Brownsville,Brooklyn,90243,1.08,7.6,10.75

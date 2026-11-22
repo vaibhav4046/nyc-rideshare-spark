@@ -1,0 +1,13 @@
+target/
+project/target/
+project/project/
+.bsp/
+.idea/
+.metals/
+.vscode/
+data/
+out/
+spark-warehouse/
+metastore_db/
+*.log
+__pycache__/
